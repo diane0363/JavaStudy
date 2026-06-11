@@ -9,6 +9,7 @@ public class Study1_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // 생년월일은 0으로 시작할 수 도 있기 때문에 String으로 받는다.
         String birth = inputData(sc, "생년월일 8자리 입력: ");
         String current = inputData(sc, "현재 날짜 8자리 입력: ");
 
